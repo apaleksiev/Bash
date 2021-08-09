@@ -1,6 +1,5 @@
 #!/bin/bash
-# want to add general troubleshooting complexity to this script-
-# ip neighbor to check local network- greo for FAILED
+## This script will make basic Network troubleshooting checks
 
 LOCAL_GATEWAY=$(/sbin/ip route | awk '/default/ {print $3}')
 CHECK_DOMAIN=google.com
