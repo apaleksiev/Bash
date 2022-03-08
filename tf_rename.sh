@@ -1,6 +1,6 @@
 #!/bin/bash
 #I needed to do a mass naming convention fix on hundreds of resources
-#The third line accomplished what I needed it to do but terraform has varying levels of indentation/tabs
+#The third sed command accomplished what I needed it to do but terraform has varying levels of indentation/tabs
 #which was messing up the script- thus I had to normalize all white spaces and terraform fmt when changed
 
 
